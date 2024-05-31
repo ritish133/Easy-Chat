@@ -146,7 +146,7 @@ public class ProfileFragment extends Fragment {
                     if(task.isSuccessful()){
                         AndroidUtil.showToast(getContext(),"Updated successfully");
                     }else{
-                        AndroidUtil.showToast(getContext(),"Updated failed");
+                        AndroidUtil.showToast(getContext(),"Update failed");
                     }
                 });
     }
